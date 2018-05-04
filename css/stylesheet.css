@@ -17,3 +17,7 @@ body{
 img#BremenImage{
     width: 100% 
 }
+
+mark{   
+    color: darkgreen
+}
