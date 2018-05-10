@@ -28,7 +28,7 @@ mark{
 }
 
 .container{
-    padding-top: 5em;
+    padding-top: 3em;
 }
 
 .card-body{
@@ -44,4 +44,10 @@ td{
 }
 #footer{
     margin-top: 3em;
+}
+.h2centered{
+    text-align: center;
+}
+.h3centered{
+    text-align: center;
 }
