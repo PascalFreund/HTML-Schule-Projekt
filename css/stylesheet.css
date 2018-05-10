@@ -2,6 +2,11 @@ body{
     background-color: rgb(247, 243, 243);
 }
 
+.noPadding{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
 .navbar-nav > li{
     padding-left: 4em;
     padding-right: 4em;
@@ -20,4 +25,20 @@ img {
 
 mark{   
     color: darkgreen
+}
+
+.container{
+    padding-top: 5em;
+}
+
+.card-body{
+    background-color: #f0f3f0;
+}
+table.myTableClass{
+    margin-top: 7em;     
+    margin-bottom: 5em; 
+}
+
+td{
+    padding-right: 5em;
 }
