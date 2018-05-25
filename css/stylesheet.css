@@ -10,6 +10,7 @@ body{
 .navbar-nav > li{
     padding-left: 4em;
     padding-right: 4em;
+
 }
 
 .navbar.navbar-expand-sm.bg-dark li a {
@@ -27,7 +28,7 @@ mark{
     color: darkgreen
 }
 hr { 
-    width: 99%; 
+    width: 98%; 
     height: 30px; 
     margin: 0 auto;
     color: blue;
