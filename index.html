@@ -14,10 +14,16 @@
             $('#navigation').load('navbar.html');
         });
     </script>
+    <script>
+        $(document).ready(function () {
+            $('#footer').load('footer.html');
+        });
+    </script>
 </head>
 
 <body width = "90">
 
+        
     <div id="navigation"></div>
 
     <img id ="BremenImage" src="Images/img.jpg" alt="HTML icon" width="128" height="200">
@@ -31,6 +37,7 @@
             </center>
         </h1>
     </div>
+    <hr id="welcome">
     <center>
         <marquee scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()" width="1300">
             <font color="blue"> </font>
@@ -39,11 +46,11 @@
     </center>
     </blink>
     </marquee>
-    <p>
+    <p id="txt">
 
         <strong>
             <mark>
-                <ins> Ausbildung </ins>
+                <ins > Ausbildung </ins>
             </mark>
         </strong>
         umfasst Vermittlung von Fertigkeiten und Wissen durch eine dazu befugte Einrichtung, beispielsweise eine staatliche Schule,
@@ -53,21 +60,22 @@
         eine Promotion in der Philosophie oder einen Meister im Dachdeckerhandwerk. Ausbildung unterscheidet sich vom allgemeineren
         Begriff Bildung durch ihre Vollendung und Zweckbestimmtheit.
         <details>
-            <summary>Weiter lesen..</summary>
-            <p>
+            <summary style="color: teal">Weiter lesen..</summary>
+            <p id="text">
                 <strong>
                     <mark>
-                        <ins> Ausbildung </ins>
+                        <ins> Duale Berufsausbildung </ins>
                     </mark>
                 </strong>
-                umfasst Vermittlung von Fertigkeiten und Wissen durch eine dazu befugte Einrichtung, beispielsweise eine staatliche Schule,
-                eine Hochschule oder ein privates Unternehmen. Im Regelfall steht am Ende einer institutionellen Ausbildung
-                eine Abschlussprüfung des Absolventen, der nach erfolgreicher Teilnahme ein Dokument erhält, das den positiven
-                Abschluss der Ausbildung bescheinigt und seine erworbene Befähigung nachweist, beispielsweise ein Zertifikat
-                in Web-Programmierung, eine Promotion in der Philosophie oder einen Meister im Dachdeckerhandwerk. Ausbildung
-                unterscheidet sich vom allgemeineren Begriff Bildung durch ihre Vollendung und Zweckbestimmtheit.
+                Der Schulabschluss ist geschafft, und der Start ins Berufsleben kann beginnen: Wer sich jetzt für eine etriebliche Ausbildung entscheidet, trifft eine gute 
+Wahl. Die Kombination aus praktischer Ausbildung im Betrieb und fachbegleitendem Lernen in der Berufsschule – auch duale Ausbildung genannt – schafft 
+eine hervorragende Grundlage für ein erfolgreiches Berufsleben.
+Schulabgängerinnen und ­abgänger haben unabhängig von ihrem Abschluss hierzulande die Wahl zwischen circa 330 staatlich anerkannten Ausbildungsberufen. 
+Eine betriebliche Ausbildung ist in ganz unterschied­lichen Bereichen möglich: im Handwerk oder in der Industrie, im Handel, in der Landwirtschaft oder im 
+öffentlichen Dienst, in Arztpraxen oder Apotheken, bei Rechtsanwälten oder Steuerberatern. Egal wie die Wahl ausfällt – wer eine betriebliche Ausbildung 
+erfolgreich absolviert, ist hinterher gut gerüstet für den weiteren Berufsweg in der gewählten Branche. 
             
         </details>
-        </p>
-    </p> 
-</html>
+        </p>     
+        
+    <div id="footer"></div>

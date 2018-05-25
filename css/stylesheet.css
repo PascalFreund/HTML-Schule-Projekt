@@ -2,6 +2,11 @@ body{
     background-color: rgb(247, 243, 243);
 }
 
+.noPadding{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
 .navbar-nav > li{
     padding-left: 4em;
     padding-right: 4em;
@@ -20,4 +25,18 @@ img#BremenImage{
 
 mark{   
     color: darkgreen
+}
+hr { 
+    width: 99%; 
+    height: 30px; 
+    margin: 0 auto;
+    color: blue;
+    background: #dfac20;
+}
+text#txt{width: 90;
+    height: 70px;
+    color: blue;
+    margin: 10;
+
+
 }

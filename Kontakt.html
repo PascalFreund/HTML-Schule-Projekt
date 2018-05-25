@@ -13,12 +13,65 @@
             $('#navigation').load('navbar.html');
         });
     </script>
+     <script>
+            $(document).ready(function () {
+                $('#footer').load('footer.html');
+            });
+        </script>
 </head>
 
 <body>
+    <div class="header">
+        <img src="img.jpg" alt="HTML icon" width="128" height="200">
+    </div>
     <div id="navigation"></div>
 
-    <p>Das ist unsere Kontakt Seite</p>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h1>Kontaktinfo</h1>
+                </br>
+                </br>
+                <h3>Team neusta GmbH</h3>
+                <p class="noPadding">Konsul-Smidt-Straße 24</p>
+                <p class="noPadding">28217 Bremen</p>
+                <p class="noPadding">Deutschland</p>
+                </br>
+                <p class="noPadding">Pascal Freund:</p>
+                <p class="noPadding">Telefon: 01522 1939788</p>
+                <p class="noPadding">Email: p.freund@neusta.de</p>
+                </br>
+                <p class="noPadding">Mohamed Ezaizi:</p>
+                <p class="noPadding">Telefon: </p>
+                <p class="noPadding">Email: m.ezaizi@neusta.de</p>
+                </br></br></br>
+                <h2 class="h2">hier finden Sie uns</h2>
+                <div id="map" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(53.090687, 8.774030), zoom: 15
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: {lat:53.090687, lng:8.774030},
+      map: map,
+      title: "Team neusta GmbH"
+  })
+}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvz21BxaG7087qKR87kwbkQ_aNQlaX78s&callback=myMap"></script>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
 
 </body>
 
